@@ -1,9 +1,9 @@
 ### Electron webpack edge-js example
 
-Edge-js is library to run c# or dotnet scripts from nodeJS, it is
-working with node more or less (I managed to run it with dotnet
-but not with mono on linux), but when have to run it with electron +
-webpack stack I got problems.
+[Edge-js](https://github.com/agracio/edge-js) is library to run c# or 
+dotnet scripts from nodeJS, it is working with node more or less 
+(I managed to run it with dotnet but not with mono on linux), but 
+when have to run it with electron + webpack stack I got problems.
 
 Essentially problem was with webpack, trying to bundle native addon
 it then report file required not found and node-loader not helped in
